@@ -1,0 +1,40 @@
+Index: src/main/java/com/msk/GitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.msk;\r\n\r\npublic class GitTest {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"hot-fix\");\r\n        System.out.println(\"hot-fix2222222\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/msk/GitTest.java b/src/main/java/com/msk/GitTest.java
+--- a/src/main/java/com/msk/GitTest.java	(revision 9ae64135e515703fcd69acf8727f6f8931841c06)
++++ b/src/main/java/com/msk/GitTest.java	(date 1648379225532)
+@@ -3,6 +3,5 @@
+ public class GitTest {
+     public static void main(String[] args) {
+         System.out.println("hot-fix");
+-        System.out.println("hot-fix2222222");
+     }
+ }
+Index: git-test.iml
+===================================================================
+diff --git a/git-test.iml b/git-test.iml
+deleted file mode 100644
+--- a/git-test.iml	(revision 9ae64135e515703fcd69acf8727f6f8931841c06)
++++ /dev/null	(revision 9ae64135e515703fcd69acf8727f6f8931841c06)
+@@ -1,15 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9">
+-    <output url="file://$MODULE_DIR$/target/classes" />
+-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+-      <excludeFolder url="file://$MODULE_DIR$/target" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
