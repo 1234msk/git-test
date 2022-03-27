@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce834ef4-a6a7-413a-8443-6d76771a2d86" name="Default Changelist" comment="hot-fix commit4">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_3_27_19_08_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_3_27_19_08__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-test.iml" afterDir="false" />
+    <list default="true" id="ce834ef4-a6a7-413a-8443-6d76771a2d86" name="Default Changelist" comment="master commit4">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msk/GitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msk/GitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +66,7 @@
       <list>
         <item itemvalue="Application.GitTest" />
         <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648374423597</updated>
       <workItem from="1648374424773" duration="1280000" />
-      <workItem from="1648379239426" duration="782000" />
+      <workItem from="1648379239426" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="commit first by hot-fix branch">
       <created>1648378765533</created>
@@ -123,7 +116,28 @@
       <option name="project" value="LOCAL" />
       <updated>1648379852725</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hot-fix commit5">
+      <created>1648380042405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648380042405</updated>
+    </task>
+    <task id="LOCAL-00007" summary="master commit4">
+      <created>1648380100137</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648380100137</updated>
+    </task>
+    <task id="LOCAL-00008" summary="master commit4">
+      <created>1648380151366</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648380151366</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +154,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="hot-fix" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -164,6 +178,8 @@
     <MESSAGE value="commit second by hot-fix branch" />
     <MESSAGE value="第三次修改（by hot-fix branch）" />
     <MESSAGE value="hot-fix commit4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hot-fix commit4" />
+    <MESSAGE value="hot-fix commit5" />
+    <MESSAGE value="master commit4" />
+    <option name="LAST_COMMIT_MESSAGE" value="master commit4" />
   </component>
 </project>
